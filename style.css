@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#000;
+    color:#fff;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:400px;
+    margin:auto;
+    padding:20px;
+}
+.logo{
+    display:block;
+    max-width:200px;
+    margin:0 auto 20px;
+}
+.field{
+    margin-bottom:15px;
+    display:flex;
+    flex-direction:column;
+}
+select, input[type="text"], input[type="tel"], input[type="file"]{
+    padding:10px;
+    border:1px solid #fff;
+    background:#000;
+    color:#fff;
+}
+button{
+    padding:10px;
+    background:#fff;
+    color:#000;
+    border:none;
+    cursor:pointer;
+}
+.hidden{display:none;}
+#confirmation{margin-top:20px;}
+
+html[lang="ar"] body{
+    direction:rtl;
+    text-align:right;
+}
